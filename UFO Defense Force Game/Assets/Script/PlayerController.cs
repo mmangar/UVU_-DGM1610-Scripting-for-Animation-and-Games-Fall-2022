@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     public Transform blaster;
 
-    public GameObject boltContainer;
+    public GameObject lazerBolt;
 
 
     // Update is called once per frame
@@ -34,21 +34,19 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        // If space bar is pressed fire boldContainer
+        // If space bar is pressed fire lazerBolt
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Create boltContainer at the Blaster transform position maintaining the object rotation.
-            Instantiate(boltContainer, blaster.transform.position, boltContainer.transform.rotation);
+            //Create lazerBolt at the Blaster transform position maintaining the object rotation.
+            Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
 
-
-    }
-
-        //Delete any object with a trigger that hits the player
-        private void OnTriggerEnter(Collider other)
+     
+}
+    //Delete any object with a trigger that hits the player
+    private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
     }
-
 
 }
