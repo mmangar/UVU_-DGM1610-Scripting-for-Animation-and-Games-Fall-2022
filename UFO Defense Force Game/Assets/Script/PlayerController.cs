@@ -14,6 +14,14 @@ public class PlayerController : MonoBehaviour
 
     public GameObject lazerBolt;
 
+    public GameManager gameManager;
+
+    void Start()
+    {
+        //                             GameObject     Script Component
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); //Reference GameManager script on GameManager object
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -41,12 +49,8 @@ public class PlayerController : MonoBehaviour
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
 
-     
-}
-    //Delete any object with a trigger that hits the player
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
     }
-
 }
+   
+
+
