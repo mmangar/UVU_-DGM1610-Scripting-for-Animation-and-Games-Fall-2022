@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 12946833}
   - component: {fileID: 12946832}
+  - component: {fileID: 12946834}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -168,6 +169,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &12946834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12946831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb63344a6c683414689ebb14ee5c859e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  scoreText: {fileID: 0}
 --- !u!1 &125020698
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438981899}
   - component: {fileID: 1438981898}
+  - component: {fileID: 1438981900}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -947,6 +963,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1438981900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438981897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20e5a46208da4964b9355fcfbab21ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameOver: 0
 --- !u!1 &1535058019
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +1009,7 @@ MonoBehaviour:
   - {fileID: 6223600392588808035, guid: 93b9f908e2507475c9c9575960301814, type: 3}
   - {fileID: 6411399046971790123, guid: 19e3e40314d6e42c69d4e0530f75362d, type: 3}
   - {fileID: 2730532108513599572, guid: 272c3fe44f5a0431b86c026cb115d12c, type: 3}
+  ufoIndex: 1
 --- !u!4 &1535058021
 Transform:
   m_ObjectHideFlags: 0
