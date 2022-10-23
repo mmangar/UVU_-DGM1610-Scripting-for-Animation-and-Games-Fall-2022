@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 25;
 
-    public float xRange = 15;
+    public float xRange = 30;
 
     public Transform blaster;
 
@@ -21,8 +21,6 @@ public class PlayerController : MonoBehaviour
         //                             GameObject     Script Component
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); //Reference GameManager script on GameManager object
     }
-
-
     // Update is called once per frame
     void Update()
     {
@@ -50,7 +48,17 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    //delete any object with a trigger that the player
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+    }
+
+
+
 }
+
    
 
 
