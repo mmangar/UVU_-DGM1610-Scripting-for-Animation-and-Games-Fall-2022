@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
         {
             EndGame(); // Start EndGame Method
         }
-
         else
             gameOverText.gameObject.SetActive(false); // Keep UI Text Game Over Hidden
     }

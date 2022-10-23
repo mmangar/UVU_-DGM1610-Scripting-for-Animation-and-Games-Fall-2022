@@ -5,7 +5,7 @@ using UnityEngine;
 public class DetectCollision : MonoBehaviour
 {
 
-    public ScoreManager scoreManager; //Referencing the scoremanager
+   private ScoreManager scoreManager; //Referencing the scoremanager
 
     public int scoreToGive;
 
@@ -23,7 +23,7 @@ public class DetectCollision : MonoBehaviour
     void OnTriggerEnter(Collider other) // Once tbe trigger has been entered record collision in the argument variables "other"
     {
         scoreManager.IncreaseScore(scoreToGive); //Increase Score amount by scoreToGive
-        Destroy(gameObject); //Destroy this gameobject
-        Destroy(other.gameObject); //Destroy the other gameobject it hits
+        Destroy(other.gameObject); //Destroy this gameobject
+        Destroy(gameObject); //Destroy the other gameobject it hits   
     }
 }

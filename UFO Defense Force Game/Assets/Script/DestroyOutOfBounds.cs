@@ -38,7 +38,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     else if(transform.position.z < lowerBounds)
         {
             scoreManager.DecreaseScore(detectCollision.scoreToGive); // Everytime a ship sneeks past the lower bounds deduct points 
-            Debug.Log("Game Over");
+            Debug.Log("Game Over!");
             Destroy(gameObject);
             Time.timeScale = 0;
         }
