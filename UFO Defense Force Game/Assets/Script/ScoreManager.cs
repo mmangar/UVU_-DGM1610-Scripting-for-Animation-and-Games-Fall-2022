@@ -10,9 +10,13 @@ public class ScoreManager : MonoBehaviour
 
     public TextMeshProUGUI scoreText; // Reference visual text UI element to change
 
+   
 
     // Start is called before the first frame update
-    
+  void Start()
+    {
+       
+    }
 
     // This function rewards the player
 

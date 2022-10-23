@@ -9,13 +9,13 @@ public class EnemySpawnManager : MonoBehaviour
 
     public int ufoIndex;
 
-    private float spawnRangeX = 20f;
+    public float spawnRangeX;
 
-    private float spawnPosZ = 20f;
-
+    public float spawnPosZ;
+   
     private float startDelay = 2f;
 
-    private float SpawnInterval = 1.5f;
+    private float SpawnInterval = 2f;
 
 void Start()
     {
