@@ -1,0 +1,539 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7 (Build 20G817)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/manjikamangar/Desktop/Git/UVU_-DGM1610-Scripting-for-Animation-and-Games-Fall-2022/UFO Defense Force Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55059
+Successfully changed project path to: /Users/manjikamangar/Desktop/Git/UVU_-DGM1610-Scripting-for-Animation-and-Games-Fall-2022/UFO Defense Force Game
+/Users/manjikamangar/Desktop/Git/UVU_-DGM1610-Scripting-for-Animation-and-Games-Fall-2022/UFO Defense Force Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/manjikamangar/Desktop/Git/UVU_-DGM1610-Scripting-for-Animation-and-Games-Fall-2022/UFO Defense Force Game/Assets
+GfxDevice: creating device client; threaded=0
+2022-10-23 01:11:16.519 Unity[28900:2240359] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-10-23 01:11:16.519 Unity[28900:2240359] Metal devices available: 1
+2022-10-23 01:11:16.519 Unity[28900:2240359] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2022-10-23 01:11:16.520 Unity[28900:2240359] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000949 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (737ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000986 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.011476 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 162.7 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 3.265342 ms (FindLiveObjects: 0.124153 ms CreateObjectMapping: 0.047112 ms MarkObjects: 2.576159 ms  DeleteObjects: 0.517096 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b88a85b50d53413a3c692eb861ac7a') in 0.912711 seconds 
+  Import took 0.920751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.319829 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f156704ba2371f325091648c7f08fe7') in 0.010064 seconds 
+  Import took 0.013927 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 2.753802 ms (FindLiveObjects: 0.121520 ms CreateObjectMapping: 0.045881 ms MarkObjects: 2.571132 ms  DeleteObjects: 0.014548 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.596554 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1915dd0e32d7c719b8afdf8a941dcacb') in 0.057769 seconds 
+  Import took 0.061289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.436213 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f4079e0a97328c3b19bea12f9b37f') in 0.009671 seconds 
+  Import took 0.013238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.077505 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ad2b4e4357990db00d2bfa98ec708b') in 0.008866 seconds 
+  Import took 0.012352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.357309 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc3d084d0428dd436c5734618855e7a') in 0.008606 seconds 
+  Import took 0.012208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.096034 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4bb881c9367a645043bab6ac7b6398') in 0.008093 seconds 
+  Import took 0.010785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.072467 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd221b77fe9d9054cf34c7450896dd369') in 0.009702 seconds 
+  Import took 0.013565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.476831 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e68bd3445b53ca7cfa7cbc0c6f81b8') in 0.009385 seconds 
+  Import took 0.013057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.672978 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482744b8fc0f6050c02cfc51c12a27c6') in 0.008529 seconds 
+  Import took 0.012387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.401380 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5844852c3a9a21d62b12c95159aec30') in 0.024097 seconds 
+  Import took 0.027722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.875350 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0c30350ed2453276b9f39276a54a27') in 0.009933 seconds 
+  Import took 0.029646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.143805 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cafe45f2a845cec29c7ff9e25aa627') in 0.010413 seconds 
+  Import took 0.014078 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.1 MB.
+System memory in use after: 165.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 3.140833 ms (FindLiveObjects: 0.196126 ms CreateObjectMapping: 0.056275 ms MarkObjects: 2.871789 ms  DeleteObjects: 0.015805 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125.826537 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd2de95198c6570b6c23c93729eaac0') in 0.075586 seconds 
+  Import took 0.079245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.149281 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa401c516de84009d9cb7b4265f889c3') in 0.014508 seconds 
+  Import took 0.018354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.980461 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7446adfdf0e459166ba5de18b9ab43a') in 0.014096 seconds 
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.033232 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80e2ae297c9b786b8d9b40a2fd89b76') in 0.014809 seconds 
+  Import took 0.019351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.192389 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c2a9ac696cf85b86def230d39124e5') in 0.015478 seconds 
+  Import took 0.018826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284859 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54cdb1ba1d9d1987c4b6e6ee6fdc188') in 0.011012 seconds 
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.035277 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007624f8cecd7657edbd4e8cf973010e') in 0.011039 seconds 
+  Import took 0.013910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.767459 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e96f6cf567d8eb8d4b61da19cd0960') in 0.017068 seconds 
+  Import took 0.020961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193177 seconds.
+  path: Assets/Prefabs/UFO_Cruiser.prefab
+  artifactKey: Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Cruiser.prefab using Guid(19e3e40314d6e42c69d4e0530f75362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5856e7458ab9ef7bd9991f370d8d53db') in 0.020421 seconds 
+  Import took 0.024116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.916617 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba0d4a4b85a4451b481cd301b982c6a') in 0.012645 seconds 
+  Import took 0.016180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.396455 seconds.
+  path: Assets/Prefabs/UFO_Mothership.prefab
+  artifactKey: Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Mothership.prefab using Guid(93b9f908e2507475c9c9575960301814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bff640bed2724f1dea696c35cefe20') in 0.013347 seconds 
+  Import took 0.016641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.834458 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fd63d11a3a3410285846902eca327f') in 0.012926 seconds 
+  Import took 0.017863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.910286 seconds.
+  path: Assets/Prefabs/UFO_Scout.prefab
+  artifactKey: Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UFO_Scout.prefab using Guid(272c3fe44f5a0431b86c026cb115d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7abcdcf05c6bbd7d341225cfb24677a') in 0.018626 seconds 
+  Import took 0.021627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.947114 seconds.
+  path: Assets/Script/DetectCollision.cs
+  artifactKey: Guid(2479414c41f934aeeb4e958920bd9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DetectCollision.cs using Guid(2479414c41f934aeeb4e958920bd9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e332d8185630d853d3e0645ae9cad67b') in 2.401881 seconds 
+  Import took 2.411415 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.4 MB.
+System memory in use after: 169.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 2.832826 ms (FindLiveObjects: 0.123392 ms CreateObjectMapping: 0.043306 ms MarkObjects: 2.647832 ms  DeleteObjects: 0.017406 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

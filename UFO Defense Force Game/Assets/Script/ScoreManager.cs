@@ -26,6 +26,7 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText(); // Update the score UT text
     }
 
+    // This fuction penalizes the player
     public void DecreaseScore(int amount)
     {
         score -= amount; //Subtract amount from the score
@@ -34,6 +35,6 @@ public class ScoreManager : MonoBehaviour
 
     public void UpdateScoreText()
     {
-        scoreText.text = "Score:" + score;
+        scoreText.text = "Score: "+ score;
     }
 }
