@@ -168,6 +168,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &96345779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 68818201163112759, guid: d37388f1358ae41a6971ae4d5ca8b296, type: 3}
+  m_PrefabInstance: {fileID: 141945954391526810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &96345784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96345779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2479414c41f934aeeb4e958920bd9ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: 0
 --- !u!1 &125020698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,6 +1234,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7324800579282131213, guid: d37388f1358ae41a6971ae4d5ca8b296, type: 3}
+      propertyPath: scoreToGive
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8858104083177521391, guid: d37388f1358ae41a6971ae4d5ca8b296, type: 3}
       propertyPath: m_Height
       value: 2.1641192
@@ -1240,5 +1262,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7324800579282131213, guid: d37388f1358ae41a6971ae4d5ca8b296, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d37388f1358ae41a6971ae4d5ca8b296, type: 3}
