@@ -570,7 +570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618841783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2900001, y: -83.821396, z: -6.5600004}
+  m_LocalPosition: {x: -1.14, y: 0, z: -6.5600004}
   m_LocalScale: {x: 1.13, y: 0.553518, z: 1.13}
   m_Children:
   - {fileID: 246176351}
@@ -1013,7 +1013,6 @@ MonoBehaviour:
   - {fileID: 6223600392588808035, guid: 93b9f908e2507475c9c9575960301814, type: 3}
   - {fileID: 2730532108513599572, guid: 272c3fe44f5a0431b86c026cb115d12c, type: 3}
   ufoIndex: 0
-  spawnRangeX: 17
   spawnPosZ: 25
 --- !u!4 &1535058021
 Transform:
