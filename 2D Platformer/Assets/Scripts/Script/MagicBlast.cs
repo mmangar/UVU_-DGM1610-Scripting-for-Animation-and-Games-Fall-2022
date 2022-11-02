@@ -10,26 +10,26 @@ public class MagicBlast : MonoBehaviour
 
     public Rigidbody2D rb;
 
-
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); // Referejce the rigidbody2D component 
 
-        rb.velocity = transform.right * speed; //this line of code add velocity and make the gameobject move forward
-    }
+        rb.velocity = transform.right * speed;//this line of code add velocity and make the gameobject move forward
 
-    // Dectect any collision and triggers 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        GhostEnemy enemy = other.GetComponent<GhostEnemy>();
 
-        if (other.gameObject.CompareTag("Enemy"))
+        // Dectect any collision and triggers 
+        void OnTriggerEnter2D(Collider2D other)
         {
-            enemy.TakeDamage(damage); // Run the TakeDamage fuction and apply damage to enemy
-           
-        }
+            GhostEnemy enemy = other.GetComponent<GhostEnemy>();
 
-        Destroy(gameObject); //Destroy projectile
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                enemy.TakeDamage(damage); // Run the TakeDamage fuction and apply damage to enemy
+
+            }
+
+            Destroy(gameObject); //Destroy projectile
+        }
     }
 }

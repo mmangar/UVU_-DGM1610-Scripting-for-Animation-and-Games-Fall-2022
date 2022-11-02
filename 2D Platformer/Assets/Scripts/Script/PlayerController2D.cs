@@ -92,6 +92,9 @@ public class PlayerController2D : MonoBehaviour
         Vector3 scaler = transform.localScale; //Local variable that stores localscale value
         scaler.x *= -1; // Flip the sprite graphic 
         transform.localScale = scaler;
+        
 
     }
+
+  
 }

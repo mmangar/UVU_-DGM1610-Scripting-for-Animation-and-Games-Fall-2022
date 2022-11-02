@@ -9,10 +9,10 @@ public class RangedWeapon : MonoBehaviour
     public GameObject projectile;
 
 
-   // Update is called once per frame
+    // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
         }
@@ -20,6 +20,8 @@ public class RangedWeapon : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(projectile,firePoint.position,firePoint.rotation);
+        Instantiate(projectile, firePoint.position, firePoint.rotation);
     }
+
 }
+
