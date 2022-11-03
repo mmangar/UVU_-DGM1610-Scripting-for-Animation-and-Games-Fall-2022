@@ -10,12 +10,24 @@ public class MagicBlast : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    public PlayerController2D player; 
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // Referejce the rigidbody2D component 
+        rb = GetComponent<Rigidbody2D>(); // Referejce the rigidbody2D component
+        player = GetComponent<PlayerController2D>();
 
-        rb.velocity = transform.right * speed;//this line of code add velocity and make the gameobject move forward
+        if(player.isFacingRight)
+        {
+            rb.velocity = transform.right * speed;
+        }
+
+        else
+        {
+            rb.velocity = transform.right * speed *-1;//this line of code add velocity and make the gameobject move forward
+
+        }
 
 
         // Dectect any collision and triggers 
