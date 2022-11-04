@@ -50,14 +50,14 @@ public class PlayerController2D : MonoBehaviour
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         // If the player is moving right but facing left flip the player right
-        if(!isFacingRight && moveInput > 0)
+        if(!isFacingRight & moveInput > 0)
         {
             FlipPlayer();
 
         }
 
         // If the player is moving left but facing right flip the player left
-        else if (isFacingRight && moveInput < 0)
+         if(isFacingRight & moveInput < 0)
         {
             FlipPlayer();
         }
@@ -88,12 +88,11 @@ public class PlayerController2D : MonoBehaviour
 
     void FlipPlayer()
     {
+
         isFacingRight = !isFacingRight;
-        Vector3 scaler = transform.localScale; //Local variable that stores localscale value
-        scaler.x *= -1; // Flip the sprite graphic 
-        transform.localScale = scaler;
-       
+        transform.Rotate(0f, 180f, 0f);
+
     }
 
-  
+
 }

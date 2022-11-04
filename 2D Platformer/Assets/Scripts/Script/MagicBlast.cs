@@ -30,7 +30,7 @@ public class MagicBlast : MonoBehaviour
 
             }
 
-            Destroy(gameObject); //Destroy projectile
+            Destroy (gameObject); //Destroy projectile
         }
     }
 }
