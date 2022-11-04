@@ -20,7 +20,9 @@ public class RangedWeapon : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(projectile, firePoint.position, firePoint.rotation);
+        GameObject bullet;
+        bullet = Instantiate(projectile, firePoint.position, firePoint.rotation);
+        bullet.transform.localScale
     }
 
 }
