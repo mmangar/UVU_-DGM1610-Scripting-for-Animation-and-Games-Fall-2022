@@ -16,11 +16,17 @@ public class PlayerController : MonoBehaviour
 
     public GameManager gameManager;
 
+    private AudioSource blasterAudio;
+
+    public AudioClip laserBlast;
+
+
     void Start()
     {
-        //                             GameObject     Script Component
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); //Reference GameManager script on GameManager object
+        blasterAudio = GetComponent<AudioSource>();
     }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -43,6 +49,7 @@ public class PlayerController : MonoBehaviour
         // If space bar is pressed fire lazerBolt
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            blasterAudio.PlayOneShot(laserBlast, 1.0f);
             //Create lazerBolt at the Blaster transform position maintaining the object rotation.
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
