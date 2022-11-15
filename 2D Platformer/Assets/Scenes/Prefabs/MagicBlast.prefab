@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5785812721490463286}
   - component: {fileID: 5785812721490463287}
   - component: {fileID: 5785812721490463284}
-  - component: {fileID: 5785812721490463288}
+  - component: {fileID: -8129872789759183811}
   m_Layer: 0
   m_Name: MagicBlast
   m_TagString: Untagged
@@ -122,7 +122,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &5785812721490463288
+--- !u!114 &-8129872789759183811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,5 +135,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  damage: 10
-  rb: {fileID: 5785812721490463284}
+  damage: 1
+  rb: {fileID: 0}

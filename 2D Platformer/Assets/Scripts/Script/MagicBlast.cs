@@ -6,7 +6,7 @@ public class MagicBlast : MonoBehaviour
 {
     public float speed = 30f;
 
-    public int damage = 10;
+    public int damage = 1;
 
     public Rigidbody2D rb;
  
@@ -22,7 +22,7 @@ public class MagicBlast : MonoBehaviour
         // Dectect any collision and triggers 
         void OnTriggerEnter2D(Collider2D other)
         {
-            GhostEnemy enemy = other.GetComponent<GhostEnemy>();
+            Enemy enemy = other.GetComponent<Enemy>();
 
             if (other.gameObject.CompareTag("Enemy"))
             {

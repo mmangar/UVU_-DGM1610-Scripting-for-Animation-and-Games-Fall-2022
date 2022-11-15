@@ -7,7 +7,7 @@ public class EnemyAttack : MonoBehaviour
 
     private Health playerHealth;
 
-    public int damage = -1;
+    public int damage = 1;
 
     // Start is called before the first frame update
     void Start()

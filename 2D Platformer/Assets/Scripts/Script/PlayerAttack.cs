@@ -25,9 +25,9 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (attackDelay < 0) //if delay allow is zero allow an attack
+        if (attackDelay <= 0) //if delay allow is zero allow an attack
         {
-            if ( Input.GetKey(KeyCode.Space)) //wait for key press
+            if ( Input.GetKey(KeyCode.F)) //wait for key press
             {
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, WhatIsEnemy);
 
@@ -48,6 +48,7 @@ public class PlayerAttack : MonoBehaviour
        
     }
 
+    //Render gizmos on screen in a red wire sphere
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
