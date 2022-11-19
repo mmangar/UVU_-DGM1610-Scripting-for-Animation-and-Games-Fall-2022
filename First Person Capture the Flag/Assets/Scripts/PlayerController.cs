@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     public float maxLookX;
 
-    public float MinLookX;
+    public float minLookX;
 
     private float rotX;
 
@@ -53,16 +53,24 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        float x = Input.GetAxis("Horizontal") * moveSpeed;
-        float z = Input.GetAxis("Vertical") * moveSpeed;
+        float x = Input.GetAxis("Horizontal") * moveSpeed;// Getting Input for left and right Movement 
+        float z = Input.GetAxis("Vertical") * moveSpeed;//Getting Input for forward and backward movement
 
-        rb.velocity = new Vector3(x, rb.velocity.y, z);
+        //Vector3 dir = transform.right *
+        //rb.velocity = new Vector3(x, rb.velocity.y, z);//Apply velocity to the x-axis and z-axis to drive the player 
     }
 
     void CameraLook()
     {
         float y = Input.GetAxis("Mouse X") * lookSensitivity; // Look up and down 
-        rotX += Input.GetAxis("Mouse Y") * lookSensitivity; // Look left and Right 
+        rotX += Input.GetAxis("Mouse Y") * lookSensitivity; // Look left and Right
+
+        //Restrict rotation on the x-asixs between maxLook to minLook
+        rotX = Mathf.Clamp(rotX, minLookX, maxLookX);
+
+        // drives Camera rotation
+        camera.transform.localRotation = Quaternion.Euler(-rotX, 0, 0);
+        transform.eulerAngles += Vector3.up * y;
     }
 
     void Jump()
