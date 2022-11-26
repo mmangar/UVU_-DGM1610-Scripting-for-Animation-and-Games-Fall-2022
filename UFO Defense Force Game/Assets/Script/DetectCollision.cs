@@ -8,6 +8,7 @@ public class DetectCollision : MonoBehaviour
    private ScoreManager scoreManager; // A variable to hold the reference to the socremanager 
 
     public int scoreToGive;
+
     public ParticleSystem explosionParticle;
 
 
