@@ -6,7 +6,7 @@ public class MagicBlast : MonoBehaviour
 {
     public float speed = 30f;
 
-    public int damage = 1;
+    public int damage = 10;
 
     public Rigidbody2D rb;
  
