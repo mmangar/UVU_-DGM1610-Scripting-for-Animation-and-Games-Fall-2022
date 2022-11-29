@@ -56,8 +56,11 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal") * moveSpeed;// Getting Input for left and right Movement 
         float z = Input.GetAxis("Vertical") * moveSpeed;//Getting Input for forward and backward movement
 
-        //Vector3 dir = transform.right *
-        //rb.velocity = new Vector3(x, rb.velocity.y, z);//Apply velocity to the x-axis and z-axis to drive the player 
+        Vector3 dir = transform.right * x + transform.forward * z;
+        dir.y = rb.velocity.y;
+        rb.velocity = dir;
+        //rb.velocity = new Vector3(x, rb.velocity.y, z);//Apply velocity to the x-axis and z-axis to drive the player
+        
     }
 
     void CameraLook()
