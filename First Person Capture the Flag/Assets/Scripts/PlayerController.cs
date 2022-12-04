@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
 
     public float jumpForce;
 
+    public int curHp;
+
+    public int maxHp;
+
     [Header("Camera")]
 
     public float lookSensitivity;
@@ -24,19 +28,55 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
 
+    //private Weapon weapon;
+
     void Awake()
     {
-        //Get Components
-        camera = Camera.main;
-        rb = GetComponent<Rigidbody>();
+        //weapon = GetComponent<Weapon>();
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Get Components
+        camera = Camera.main;
+        rb = GetComponent<Rigidbody>();
     }
+
+    // Applies Damage to the Player
+
+    public void TakeDamage(int damage)
+    {
+        curHp -= damage;
+
+        if (curHp <= 0)
+            Die();
+        //GameUI.instance.UpdateHealthBar(curHp, maxHp);
+    }
+
+
+     // If player health is reduced zero or below then run die ()
+    void Die()
+    {
+        //GameManager.instance.LoseGame();
+        Debug.Log("Player had died! Game over!");
+    }
+
+    public void GiveHealth (int amountToGive)
+    {
+        //curHp = Mathf.Clamp(curHp + amountToGive, 0, maxHp);
+        //GameUI.instance.UpdateHealthBar(curHp, maxHp);
+        Debug.Log("Player has died! Game Over!");
+    }
+
+    public void GiveAmmo ( int amountToGive)
+    {
+        //weapon.curAmmo = Mathf.Clamp(weapon.curAmmo + amountToGive, 0, weapon.maxAmmo);
+        //GameUI.instance.UpdateAmmoText(weapon.curAmmo, weapon.maxAmmo);
+        Debug.Log("Player had been Healed!");
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -50,6 +90,8 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
     }
+
+   
 
     void Move()
     {

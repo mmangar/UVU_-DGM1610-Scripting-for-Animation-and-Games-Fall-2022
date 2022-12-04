@@ -269,6 +269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   jumpForce: 10
+  curHp: 0
+  maxHp: 0
   lookSensitivity: 3
   maxLookX: 30
   minLookX: -30
@@ -887,6 +889,7 @@ GameObject:
   - component: {fileID: 2023008967}
   - component: {fileID: 2023008966}
   - component: {fileID: 2023008965}
+  - component: {fileID: 2023008969}
   m_Layer: 0
   m_Name: Pickup
   m_TagString: Untagged
@@ -970,6 +973,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023008969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023008964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6301ce8e81ccc4822a12666e61c6413b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  healthAmount: 10
+  ammoAmount: 10
+  rotationSpeed: 15
+  bobSpeed: 1
+  bobHeight: 1
+  pickupSFX: {fileID: 0}
 --- !u!1 &2052715194
 GameObject:
   m_ObjectHideFlags: 0

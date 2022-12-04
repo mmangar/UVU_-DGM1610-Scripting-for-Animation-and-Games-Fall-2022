@@ -6,7 +6,8 @@ public class Pickup : MonoBehaviour
 
 {
     public PickupType type;
-    public int Value;
+    public int healthAmount;
+    public int ammoAmount;
 
     [Header("Bobbing Motion")]
     public float rotationSpeed;
@@ -29,8 +30,9 @@ public class Pickup : MonoBehaviour
     public enum PickupType
     {
         Health,
+
         Ammo,
-        Powerup
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -40,20 +42,28 @@ public class Pickup : MonoBehaviour
            PlayerController player = other.GetComponent<PlayerController>();
 
             
-             //Switch(type)
+            switch(type)
+            {
+                case PickupType.Health:
+                player.GiveHealth(healthAmount);
+                break;
 
-           // {
-           // case PickupType.Health:
-           /// player.GiveHealth(value);
-          //  break;
-           // default:
-          //  Print("Tyoe not accepted");
-          //  break;
-           // }
+                case PickupType.Ammo:
+                player.GiveAmmo(ammoAmount);
+                break;
 
-            //Reference Audio Source go play sound effect
-          //  other.GetComponent<AudioSource>().PlayOneShot(pickupSFX);*?
-            //Destroy Pickup
+                default:
+                print("Type not accepted");
+                break;
+           
+           
+            }
+
+           
+
+           // Reference Audio Source go play sound effect
+           //other.GetComponent<AudioSource>().PlayOneShot(pickupSFX);*?
+           // Destroy Pickup
             
             Destroy (gameObject);
         }
