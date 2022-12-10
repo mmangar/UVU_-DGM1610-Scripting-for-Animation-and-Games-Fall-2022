@@ -14,15 +14,15 @@ public class Flag : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gm = GameObject.Find("GameManager").GetComponent<GameManager>(); //Fins GaemManager and reference the GameManager Component
+        gm = GameObject.Find("GameManager").GetComponent<GameManager>(); //Find GameManager and reference the GameManager Component
         rend = GetComponent<Renderer>();
         rend.enabled = true;
 
     }
      void OntriggeredEnter(Collider other)
     {
-        gm.hasFlag = true;
-        rend.enabled = false;
+        gm.hasFlag = true; //Get flag ans set bool hasFlag to true
+        rend.enabled = false;//Hide the Flag 
     }
 
 
