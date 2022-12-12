@@ -21,8 +21,12 @@ public class Flag : MonoBehaviour
     }
      void OntriggeredEnter(Collider other)
     {
-        gm.hasFlag = true; //Get flag ans set bool hasFlag to true
-        rend.enabled = false;//Hide the Flag 
+
+        if(other.CompareTag("Player"))
+        {
+            gm.hasFlag = true;
+            rend.enabled = false;
+        }
     }
 
 

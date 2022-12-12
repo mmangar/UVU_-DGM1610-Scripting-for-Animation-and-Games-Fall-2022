@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    [Header("Movement")]
+    [Header("Stats")]
     public float moveSpeed;
 
     public float jumpForce;
@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
 
     public int maxHp;
 
-    [Header("Camera")]
+    [Header("Mouse Look")]
 
     public float lookSensitivity;
 
@@ -51,8 +51,9 @@ public class PlayerController : MonoBehaviour
     {
         curHp -= damage;
 
-        if (curHp <= 0)
+        if(curHp <= 0)
             Die();
+
         //GameUI.instance.UpdateHealthBar(curHp, maxHp);
     }
 
@@ -62,6 +63,8 @@ public class PlayerController : MonoBehaviour
     {
         //GameManager.instance.LoseGame();
         Debug.Log("Player had died! Game over!");
+        Time.timeScale = 0;
+
     }
 
     public void GiveHealth (int amountToGive)

@@ -34,6 +34,7 @@ public class Enemy : MonoBehaviour
         target = FindObjectOfType<PlayerController>().gameObject;
 
         player = GameObject.Find("Player").GetComponent<PlayerController>();
+
         InvokeRepeating("UpdatingPath", 0.0f, 0.5f);
 
         curHP = maxHP;
@@ -50,20 +51,21 @@ public class Enemy : MonoBehaviour
 
     void ChaseTarget()
     {
-        if (path.Count == 0)
+        if(path.Count == 0)
             return;
 
-        //Move towards the closest path
+        //Move Towards the closest path
         transform.position = Vector3.MoveTowards(transform.position, path[0] + new Vector3(0, yPathOffset, 0), moveSpeed * Time.deltaTime);
 
-        if (transform.position == path[0] + new Vector3(0, yPathOffset, 0))
+        if(transform.position == path[0] + new Vector3(0, yPathOffset, 0))
             path.RemoveAt(0);
     }
+    
 
     public void TakeDamage(int damage)
     {
         curHP -= damage;
-        if (curHP <= 0)
+        if(curHP <= 0)
             Die();
 
     }
